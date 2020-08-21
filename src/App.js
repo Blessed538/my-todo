@@ -54,6 +54,7 @@ this.setState({ todos: this.state.todos.map(todo => {
       <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo} />
 </React.Fragment>
       )} />
+      
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
       </div>
